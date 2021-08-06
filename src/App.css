@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+.header-image{
+  background-image: url('./assets/images/logo.GIF');
+  padding: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.header-search-bar{
+  display: flex;
+  align-items: center;
+
+}
+
+.header-search-bar-input{
+  width: 350px;
+  border: 1px solid #66666637;
+  padding:5px;
+  border-radius: 12px;
+}
